@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- ENCABEZADO -->
+        <div class="text-center">
+            <img src="../img/encabezado.jpg" alt="" class="img-fluid">
+        </div>
+
+        <!-- INICIO DEL MENU -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Convocatoria</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../html/register.html">Menu Admin</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Galeria</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contáctenos</a>
+                        </li>
+
+                        <a class="nav-link text-light mb-2" href="html/login.html">Iniciar sesión</a>
+
+
+                        <li class="nav-item">
+                            <div class="nav-link text-light mb-2" id="lbluser"></div>
+                        </li>
+
+                </div>
+            </div>
+        </nav>
+        <!-- FIN DEL MENU -->
+        <br>
+        <br>
+        <div class="center-text">
+            <h3>CONTÁCTENOS</h3>
+          </div>
+          <br>
+      
+          <div class="row">
+      
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15666.331491456984!2d-74.7907562!3d10.9948244!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3b195f6bb10f7ede!2sCUL%20CORPORACION%20UNIVERSITARIA%20LATINOAMERICANA!5e0!3m2!1ses!2sco!4v1646311349053!5m2!1ses!2sco"
+                width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+      
+      
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-6">
+      
+              <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4 position-relative">
+                  <label for="validationTooltip01" class="form-label">Nombres</label>
+                  <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+                  <div class="valid-tooltip">
+                    Buena suerte!
+                  </div>
+                </div>
+                <div class="col-md-4 position-relative">
+                  <label for="validationTooltip02" class="form-label">Apellidos</label>
+                  <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+                  <div class="valid-tooltip">
+                    Buena suerte!
+                  </div>
+                </div>
+                <div class="col-md-4 position-relative">
+                  <label for="validationTooltipUsername" class="form-label">Usuario</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                    <input type="text" class="form-control" id="validationTooltipUsername"
+                      aria-describedby="validationTooltipUsernamePrepend" required>
+                    <div class="invalid-tooltip">
+                      Please choose a unique and valid username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 position-relative">
+                  <label for="validationTooltip03" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="validationTooltip03" required>
+                  <div class="invalid-tooltip">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3 position-relative">
+                  <label for="validationTooltip04" class="form-label">Pais</label>
+                  <select class="form-select" id="validationTooltip04" required>
+                    <option selected disabled value="">Elegir...</option>
+                    <option>...</option>
+                  </select>
+                  <div class="invalid-tooltip">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-md-3 position-relative">
+                  <label for="validationTooltip05" class="form-label">Edad</label>
+                  <input type="text" class="form-control" id="validationTooltip05" required>
+                  <div class="invalid-tooltip">
+                    Please provide a valid zip.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <br>
+                  <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+              </form>
+      
+            </div>
+      
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-6">
+      
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Deje aquí su sugerencia</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+      
+            </div>
+          </div>
+      
+          <!-- FIN DE GRILLAS XL Y LG 4-4-4 -->
+          <br>
+          <hr>
+          <br>
+      
+          <!-- INICIO PIE DE PAGINA -->
+      
+       <!-- Footer -->
+       <footer class="text-center text-lg-start bg-light text-muted">
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="bi-exclamation-circle me-3"></i>Mas información sobre el aplicativo:
+                </h6>
+                <p>
+                  Este proyecto tiene la misión de desarrollar una manera efectiva que ayude a contribuir al mejoramiento con respecto a la aglomeración de las basuras construyendo, estructurando y programando un aplicativo.
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Legales
+                </h6>
+                <p>
+                  <a href="https://www.aaa.com.co/ley-de-proteccion-de-datos/" class="text-reset"  style="text-decoration: none;">Tratamiento de datos</a>
+                </p>
+                <p>
+                  <a href="https://www.aaa.com.co/gobierno-corporativo/" class="text-reset"  style="text-decoration: none;">Gobierno corporativo</a>
+                </p>
+                <p>
+                  <a href="https://www.aaa.com.co/boton-de-transparencia/" class="text-reset"  style="text-decoration: none;">Ley de transparencia e información publica</a>
+                </p>
+                
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Enlaces
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset"  style="text-decoration: none;">¿Que es un PQR?</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset"  style="text-decoration: none;">Generar Reporte</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contacto
+                </h6>
+                <p><i class="bi-map me-3"></i>  Carrera 58 No. 67 - 09, Barranquilla, Atlántico, CO</p>
+                <p>
+                  <i class="bi-envelope me-3"></i>
+                  contacto@dark-inc.com.co
+                </p>
+                <p><i class="bi-phone me-3"></i> + +57 (5) 3614116</p>
+                <p><i class="bi-file-break me-3"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          Designed-Owner by Andres Alarcón - Henmars López  © 2022 Copyright
+      
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+
+    </div>
+
+
+
+
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/validacion.js"></script>
+</body>
+
+</html>
