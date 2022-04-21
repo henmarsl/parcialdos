@@ -1,0 +1,30 @@
+[
+    {
+      "usuario":"hlopez",
+      "password":"123",
+      "nombre":"Henmars",
+      "apellido":"Lopez",
+      "tipousuario":"administrador"
+   },
+    {
+       "usuario":"endy",
+       "password":"123",
+       "nombre": "Slendy",
+       "apellido": "Lopez",
+       "tipousuario": "administrador"
+    },
+    {
+       "usuario":"aalarcon",
+       "password":"123",
+       "nombre": "Andres",
+       "apellido": "Alarcon",
+       "tipousuario": "Administrador"
+    },
+    {
+       "usuario":"davidp",
+       "password":"123",
+       "nombre":"David",
+       "apellido":"Pinillo",
+       "tipousuario":"usuario"
+    }
+   ]
